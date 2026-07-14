@@ -1,0 +1,22 @@
+import:
+  - /home/blake/.config/alacritty/dracula.yml
+shell:
+  program: /usr/bin/zsh
+font:
+  normal:
+    family: Roboto Mono Nerd Font
+    style: Regular
+  
+  bold:
+    family: Roboto Mono Nerd Font
+    style: Bold
+
+  italic:
+    family: Roboto Mono Nerd Font
+    style: Italic
+  
+  bold_italic:
+    family: Roboto Mono Nerd Font
+    style: Bold Italic
+
+  size: 12.0

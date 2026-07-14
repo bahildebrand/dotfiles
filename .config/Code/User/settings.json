@@ -1,0 +1,103 @@
+{
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.formatOnSaveMode": "file"
+    },
+    "[rust]": {
+        "editor.formatOnSaveMode": "file",
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "cSpell.userWords": [
+      "argh",
+      "chrono",
+      "coredump",
+      "coredumps",
+      "debuginfod",
+      "Deque",
+      "diskstats",
+      "ebpf",
+      "extcsd",
+      "inodes",
+      "jedec",
+      "Memfault",
+      "memfaultctl",
+      "memfaultd",
+      "memfaultd's",
+      "RSSI",
+      "rstest",
+      "swupdate",
+      "sysf",
+      "Sysfs"
+    ],
+    "files.simpleDialog.enable": true,
+    "terminal.integrated.inheritEnv": false,
+    "cmake.configureOnOpen": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.renderWhitespace": "all",
+    "editor.inlineSuggest.enabled": true,
+    "editor.formatOnSaveMode": "modifications",
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Dracula Theme",
+    "workbench.tree.enableStickyScroll": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.stickyTabStops": true,
+    "github.copilot.enable": {
+      "*": false,
+      "plaintext": false,
+      "markdown": false,
+      "scminput": false,
+      "python": false
+    },
+    "editor.formatOnSave": true,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "f",
+        "g"
+      ],
+      "commands": [
+        "workbench.action.showAllSymbols"
+      ]
+    },
+    {
+      "before": [
+        "f",
+        "f"
+      ],
+      "commands": [
+        "workbench.action.quickOpen"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "r"
+      ],
+      "commands": [
+        "editor.action.goToReferences"
+      ]
+    },
+    {
+      "before": [
+        "f",
+        "s"
+      ],
+      "commands": [
+        "workbench.action.gotoSymbol"
+      ]
+    }
+  ],
+  "editor.lineNumbers": "relative",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "chat.viewSessions.orientation": "stacked",
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default"
+  },
+  "chat.disableAIFeatures": true,
+  "python.testing.autoTestDiscoverOnSaveEnabled": false
+}
