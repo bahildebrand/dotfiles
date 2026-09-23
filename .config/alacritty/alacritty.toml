@@ -1,23 +1,27 @@
-import = ["/home/blake/.config/alacritty/dracula.toml"]
 
 [font]
 size = 12.0
 
 [font.bold]
-family = "Roboto Mono Nerd Font"
+family = "Hack Nerd Font Mono"
 style = "Bold"
 
 [font.bold_italic]
-family = "Roboto Mono Nerd Font"
+family = "Hack Nerd Font Mono"
 style = "Bold Italic"
 
 [font.italic]
-family = "Roboto Mono Nerd Font"
+family = "Hack Nerd Font Mono"
 style = "Italic"
 
 [font.normal]
-family = "Roboto Mono Nerd Font"
+family = "Hack Nerd Font Mono"
 style = "Regular"
 
-[shell]
+[general]
+import = ["/home/blake/.config/alacritty/dracula.toml"]
+
+[terminal]
+
+[terminal.shell]
 program = "/usr/bin/zsh"
